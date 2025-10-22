@@ -1,0 +1,25 @@
+.focus {
+    width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #E4E4E4;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.05);
+}
+
+.focus-data {
+    width: 100%;
+}
+
+.focus-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.focus h1 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.tasks-title {
+    margin-top: 20px;
+}

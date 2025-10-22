@@ -1,9 +1,10 @@
 import './App.css'
+import { Focus } from './components/focus'
 
 function App() {
 
   return (
-    <h1>Oi</h1>
+    <Focus>Studies</Focus>
   )
 }
 

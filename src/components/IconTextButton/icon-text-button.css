@@ -1,0 +1,12 @@
+.icon-text-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #E1E1FB;
+    padding: 25px;
+    border-radius: 10px;
+    color: #5863D6;
+    margin-top: 20px;
+    font-size: 20px;
+}
