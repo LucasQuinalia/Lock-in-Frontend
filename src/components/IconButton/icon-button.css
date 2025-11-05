@@ -1,9 +1,23 @@
 .icon-button {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    text-align: center;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
     background-color: #E4E4E4;
-    padding: 10px;
+    color: #6C6C6C;
+    padding: 15px;
     border-radius: 10px;
+    border: #E4E4E4 2px solid;
+    transition: 0.15s ease;
+}
+
+.icon-button:hover {
+    border: #6C6C6C 2px solid;
+    cursor: pointer;
+}
+
+.icon-button:active {
+    background-color: #6C6C6C;
+    color: #E4E4E4;
 }

@@ -7,7 +7,7 @@
     color: #6C6C6C;
 }
 
-.task-details {
+.checkbox {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -18,17 +18,28 @@
 }
 
 .checkmark {
-    width: 40px;
+  width: 40px;
   height: 40px;
   background-color: #E4E4E4;
   border-radius: 10px;
   display: inline-block;
   position: relative;
   cursor: pointer;
+  transition: 0.15s ease;
+}
+
+.checkbox:hover {
+  cursor: pointer;
 }
 
 .checkbox input:checked + .checkmark {
   background-color: #DFF9DE;
+}
+
+.checkbox input:checked ~ p {
+  text-decoration: line-through;
+  color: #9c9c9c;
+  transition: color 0.15s ease;
 }
 
 .checkbox input:checked + .checkmark::after {

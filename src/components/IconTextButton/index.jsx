@@ -1,9 +1,9 @@
 import "./icon-text-button.css"
 
-export function IconTextButton({ Icon, text, size = 24, color = "#5863D6" }) {
+export function IconTextButton({ Icon, text, size = 24 }) {
     return (
         <div className="icon-text-button">
-            {Icon && <Icon size={size} color={color}/>}
+            {Icon && <Icon size={size} color="currentColor"/>}
             {text && <span>{text}</span>}
         </div>
     )

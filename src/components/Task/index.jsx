@@ -1,20 +1,18 @@
-import { Date } from "../Date";
+import { TaskDate } from "../TaskDate";
 import { IconTextButton } from "../IconTextButton";
 import "./task.css"
 import { PlusCircle } from "react-feather"
 
-export function Task({ taskName,  }) {
+export function Task({ taskName, dueDate }) {
     return (
         <div>
             <div className="task">
-                <div className="task-details">
-                    <label className="checkbox">
-                        <input type="checkbox"/>
-                        <span className="checkmark"></span>
-                    </label>
+                <label className="checkbox">
+                    <input type="checkbox"/>
+                    <span className="checkmark"></span>
                     <p>{taskName}</p>
-                </div>
-                <Date date={"2nd Mar."}/>
+                </label>
+                <TaskDate date={dueDate}/>
             </div>
             <IconTextButton Icon={PlusCircle} text="New task"/>
         </div>
