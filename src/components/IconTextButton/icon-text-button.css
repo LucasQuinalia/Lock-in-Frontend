@@ -3,23 +3,23 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-color: #E1E1FB;
-    color: #5863D6;
+    background-color: var(--color-blue-light);
+    color: var(--color-blue);
     padding: 25px;
     border-radius: 10px;
-    color: #5863D6;
+    color: var(--color-blue);
     margin-top: 20px;
     font-size: 20px;
-    border: #E1E1FB 2px solid;
+    border: var(--color-blue-light) 2px solid;
     transition: 0.15s ease;
 }
 
 .icon-text-button:hover {
     cursor: pointer;
-    border: #5863D6 2px solid;
+    border: var(--color-blue) 2px solid;
 }
 
 .icon-text-button:active {
-    background-color: #5863D6;
-    color: #E1E1FB;
+    background-color: var(--color-blue);
+    color: var(--color-blue-light);
 }

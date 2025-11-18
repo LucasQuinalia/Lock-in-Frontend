@@ -2,7 +2,7 @@
     width: 500px;
     padding: 30px;
     border-radius: 20px;
-    border: 2px solid #E4E4E4;
+    border: 2px solid var(--color-border-light);
     box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.05);
 }
 

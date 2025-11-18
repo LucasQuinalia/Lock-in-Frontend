@@ -4,20 +4,20 @@
     height: fit-content;
     justify-content: center;
     align-items: center;
-    background-color: #E4E4E4;
-    color: #6C6C6C;
+    background-color: var(--color-border-light);
+    color: var(--color-gray);
     padding: 15px;
     border-radius: 10px;
-    border: #E4E4E4 2px solid;
+    border: var(--color-border-light) 2px solid;
     transition: 0.15s ease;
 }
 
 .icon-button:hover {
-    border: #6C6C6C 2px solid;
+    border: var(--color-gray) 2px solid;
     cursor: pointer;
 }
 
 .icon-button:active {
-    background-color: #6C6C6C;
-    color: #E4E4E4;
+    background-color: var(--color-gray);
+    color: var(--color-border-light);
 }

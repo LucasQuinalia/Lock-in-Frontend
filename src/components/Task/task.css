@@ -4,7 +4,7 @@
     justify-content: space-between;
     font-size: 24px;
     width: 100%;
-    color: #6C6C6C;
+    color: var(--color-gray);
 }
 
 .checkbox {
@@ -20,7 +20,7 @@
 .checkmark {
   width: 40px;
   height: 40px;
-  background-color: #E4E4E4;
+  background-color: var(--color-border-light);
   border-radius: 10px;
   display: inline-block;
   position: relative;
@@ -33,12 +33,12 @@
 }
 
 .checkbox input:checked + .checkmark {
-  background-color: #DFF9DE;
+  background-color: var(--color-green-light);
 }
 
 .checkbox input:checked ~ p {
   text-decoration: line-through;
-  color: #9c9c9c;
+  color: var(--color-gray-light);
   transition: color 0.15s ease;
 }
 
@@ -49,7 +49,7 @@
   top: 8px;
   width: 6px;
   height: 14px;
-  border: solid #41A159;
+  border: solid var(--color-green);
   border-width: 0 4px 4px 0;
   transform: rotate(45deg);
 }
