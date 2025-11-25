@@ -2,14 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 0.625rem;
     background-color: var(--color-blue-light);
     color: var(--color-blue);
-    padding: 25px;
-    border-radius: 10px;
+    padding: 1.5625rem;
+    border-radius: 0.625rem;
     color: var(--color-blue);
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
     border: var(--color-blue-light) 2px solid;
     transition: 0.15s ease;
 }

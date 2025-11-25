@@ -1,10 +1,10 @@
-import "./icon-text-button.css"
+import "./icon-text-button.css";
 
-export function IconTextButton({ Icon, text, size = 24 }) {
+export function IconTextButton({ Icon, text, onClick, style, className }) {
     return (
-        <div className="icon-text-button">
-            {Icon && <Icon size={size} color="currentColor"/>}
-            {text && <span>{text}</span>}
-        </div>
-    )
+        <button className={'icon-text-button'} onClick={onClick} style={style}>
+            <Icon size={24} />
+            <span>{text}</span>
+        </button>
+    );
 }

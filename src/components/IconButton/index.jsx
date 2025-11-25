@@ -1,9 +1,9 @@
-import "./icon-button.css"
+import "./icon-button.css";
 
-export function IconButton({ Icon, size = 24 }) {
+export function IconButton({ Icon, size, color, onClick }) {
     return (
-        <div className="icon-button">
-            {Icon && <Icon size={size} color="currentColor"/>}
-        </div>
-    )
+        <button className="icon-button" onClick={onClick}>
+            <Icon size={size} color={color} />
+        </button>
+    );
 }

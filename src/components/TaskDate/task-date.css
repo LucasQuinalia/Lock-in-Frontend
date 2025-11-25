@@ -2,20 +2,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 0.625rem;
     color: var(--color-gray);
     background-color: var(--color-border-light);
-    margin: 10px 0;
-    padding: 7.5px;
-    border-radius: 10px;
-    font-size: 20px;
+    margin: 0.625rem 0;
+    padding: 0.46875rem;
+    border-radius: 0.625rem;
+    font-size: 1.25rem;
     transition: 0.15s ease;
-    border: var(--color-border-light) 2px solid;
+    border: var(--color-border-light) 0.125rem solid;
 }
 
 .date:hover {
     cursor: pointer;
-    border: var(--color-gray) 2px solid;
+    border: var(--color-gray) 0.125rem solid;
 }
 
 .date:active {
